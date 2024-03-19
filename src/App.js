@@ -1,25 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App" style={{color:'black'}}> 
+            Hello thereeee
+        </div>
+    )
 }
 
 export default App;
+
+
+// Inline Style 
+// -> should use camel casing for all css attributes and the value should be wrapped in single quotes
+    // Cheat : compound propertyname convert to camel case 
+    // this ===> style={{background-color:'black'}} 
+    // to ===> style={{backgroundColor:'black'}}
+//   Eg:  style={{backgroundColor:'black'}}

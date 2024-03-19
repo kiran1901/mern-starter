@@ -1,0 +1,10 @@
+For JSX 
+
+1 > use className for class declaration -> Because to avoid conflict with normal class it is been given like that
+
+2 > Inline Style 
+    should use camel casing for all css attributes and the value should be wrapped in single quotes
+        Cheat : compound propertyname convert to camel case 
+                this ===> style={{background-color:'black'}} 
+                to ===> style={{backgroundColor:'black'}}
+                Eg:  style={{backgroundColor:'black'}}

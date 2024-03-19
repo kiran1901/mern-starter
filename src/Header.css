@@ -1,0 +1,7 @@
+.header-main-wrapper {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    background-color: antiquewhite;
+}
